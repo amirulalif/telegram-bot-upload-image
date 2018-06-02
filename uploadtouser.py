@@ -2,8 +2,7 @@ import telegram
 
 def main():
   # Get token and connect to BOT
-  TOKEN = "353229890:AAFyKlEp8ps6FAj7cChugjvIxYDIklAhmyU"
-  chat_id = "127839460"
+  TOKEN = "your-token"
   bot = telegram.Bot(token=TOKEN)
 
   # Chat id you can get from upload.py
