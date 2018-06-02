@@ -11,7 +11,7 @@ def gid(bot, update):
 
 def main():
   # Create Updater object and attach dispatcher to it
-  TOKEN = "353229890:AAFyKlEp8ps6FAj7cChugjvIxYDIklAhmyU"
+  TOKEN = "your-bot-token-here"
   updater = Updater(TOKEN)
   dispatcher = updater.dispatcher
   print("Waiting for command")
